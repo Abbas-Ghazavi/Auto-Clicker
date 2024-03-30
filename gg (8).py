@@ -2,7 +2,9 @@ from pynput.mouse import Controller, Button
 from pynput.keyboard import Listener, Key
 import time
 import random
-x_coordinate = 820
+
+x_coordinate_min = 800
+x_coordinate_max = 820
 y_coordinate = 600
 
 mouse = Controller()
@@ -15,12 +17,12 @@ def on_press(key):
         active = False
         return False
     elif key == Key.space:
-        print("key space")
+        print("کلید Space فشرده شد.")
         if active:
-            print("stop")
+            print("برنامه متوقف می‌شود.")
             active = False
         else:
-            print("start")
+            print("برنامه دوباره شروع به کار می‌کند.")
             active = True
         return False
 
@@ -30,10 +32,10 @@ def on_release(key):
 with Listener(on_press=on_press, on_release=on_release) as listener:
     try:
         while active:
-            x_noise = random.randint(-5, 5)
+            x_coordinate = random.uniform(x_coordinate_min, x_coordinate_max)
             y_noise = random.randint(-5, 5)
             
-            mouse.position = (x_coordinate + x_noise, y_coordinate + y_noise)
+            mouse.position = (x_coordinate, y_coordinate + y_noise)
             mouse.click(Button.left, 1)
             
             time.sleep(0.01)
