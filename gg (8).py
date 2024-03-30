@@ -6,7 +6,7 @@ import random
 x_coordinate_min = 780
 x_coordinate_max = 830
 y_coordinate = 600
-
+s
 mouse = Controller()
 active = True
 
