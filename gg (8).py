@@ -9,7 +9,7 @@ y_coordinate = 600
 # need new locations
 mouse = Controller()
 active = True
-
+# add timer no need a press key
 def on_press(key):
     global active
     if key == Key.esc:
