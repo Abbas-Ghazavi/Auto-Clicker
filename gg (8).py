@@ -8,7 +8,6 @@ x_coordinate_max = 830
 y_coordinate = 600
 
 mouse = Controller()
-
 active = True
 
 def on_press(key):
@@ -17,15 +16,15 @@ def on_press(key):
         active = False
         return False
     elif key == Key.space:
-        print("کلید Space فشرده شد.")
+        print("press space")
         if active:
-            print("برنامه متوقف می‌شود.")
+            print("stop")
             active = False
         else:
-            print("برنامه دوباره شروع به کار می‌کند.")
+            print("running")
             active = True
         return False
-
+    
 def on_release(key):
     pass
 
@@ -41,6 +40,6 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
             time.sleep(0.01)
             
     except KeyboardInterrupt:
-        print("برنامه متوقف شد")
+        print("stop")
     finally:
         listener.stop()
