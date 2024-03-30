@@ -4,6 +4,7 @@ import time
 import random
 # new lib maybe
 #bad opt pc memory
+#bad cm!!
 #
 ##
 ##
