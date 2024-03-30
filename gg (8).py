@@ -2,7 +2,7 @@ from pynput.mouse import Controller, Button
 from pynput.keyboard import Listener, Key
 import time
 import random
-
+# new lib maybe
 x_coordinate_min = 780
 x_coordinate_max = 830
 y_coordinate = 600
