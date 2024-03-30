@@ -38,7 +38,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
             mouse.click(Button.left, 1)
             
             time.sleep(0.01)
-            
+            #fix bug timer
     except KeyboardInterrupt:
         print("stop")
     finally:
