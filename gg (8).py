@@ -3,8 +3,8 @@ from pynput.keyboard import Listener, Key
 import time
 import random
 
-x_coordinate_min = 800
-x_coordinate_max = 820
+x_coordinate_min = 780
+x_coordinate_max = 830
 y_coordinate = 600
 
 mouse = Controller()
