@@ -5,6 +5,7 @@ import random
 # new lib maybe
 #bad opt pc memory
 #
+##
 x_coordinate_min = 780
 x_coordinate_max = 830
 y_coordinate = 600
