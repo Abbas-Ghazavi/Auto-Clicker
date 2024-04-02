@@ -3,6 +3,7 @@ from pynput.keyboard import Listener, Key
 import time
 import random
 
+# Define the range for x-coordinate
 x_coordinate_min = 780
 x_coordinate_max = 830
 y_coordinate = 600
