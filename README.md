@@ -1,3 +1,6 @@
+#
+https://github.com/Abbas-Ghazavi/Auto-Clicker/assets/118556497/b87b0e1d-1066-4754-bd31-86aa690c271d
+#
 # Random Mouse Clicker (AC)
 
 This is a simple Python script that simulates mouse clicks at random coordinates on the screen.
@@ -20,3 +23,7 @@ This is a simple Python script that simulates mouse clicks at random coordinates
 # Notes
 - Be cautious when running the script, as it simulates mouse clicks and can interact with whatever is on your screen.
 - It's recommended to run the script in environments where its actions won't interfere with important tasks.
+
+
+
+
