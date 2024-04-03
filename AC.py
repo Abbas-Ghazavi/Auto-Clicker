@@ -11,6 +11,7 @@ y_coordinate = 600
 mouse = Controller()
 active = True
 
+
 def on_press(key):
     global active
     if key == Key.esc:
@@ -38,6 +39,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
             mouse.position = (x_coordinate, y_coordinate + y_noise)
             mouse.click(Button.left, 1)
             
+            #stop time
             time.sleep(0.01)
     except KeyboardInterrupt:
         print("stop")
