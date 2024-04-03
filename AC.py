@@ -11,7 +11,7 @@ y_coordinate = 600
 mouse = Controller()
 active = True
 
-
+#after add stop and play maybe add timer 
 def on_press(key):
     global active
     if key == Key.esc:
