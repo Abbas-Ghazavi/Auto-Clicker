@@ -11,7 +11,6 @@ y_coordinate = 600
 mouse = Controller()
 active = True
 
-#fix time 
 def on_press(key):
     global active
     if key == Key.esc:
