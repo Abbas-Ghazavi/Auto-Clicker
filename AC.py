@@ -41,5 +41,6 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
             
     except KeyboardInterrupt:
         print("stop")
+        
     finally:
         listener.stop()
