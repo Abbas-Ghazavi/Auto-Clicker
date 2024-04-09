@@ -1,7 +1,7 @@
-from pynput.mouse import Controller, Button
-from pynput.keyboard import Listener, Key
 import time
 import random
+from pynput.mouse import Controller, Button
+from pynput.keyboard import Listener, Key
 
 # Define the range for x-coordinate
 x_coordinate_min = 780
