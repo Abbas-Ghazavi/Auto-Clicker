@@ -16,11 +16,13 @@ def on_press(key):
     if key == Key.esc:
         active = False
         return False
+        
     elif key == Key.space:
         print("press space")
         if active:
             print("stop")
             active = False
+            
         else:
             print("running")
             active = True
